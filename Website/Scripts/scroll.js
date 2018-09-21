@@ -32,7 +32,7 @@ $(document).on("scroll", function()
 {
 	//console.log("Hello");
 	var y = $(this).scrollTop();
-	if(y >= $("#navigation").offset().top)
+	if(y > $("#navigation").offset().top)
 	{
 		$("#up").fadeIn();
 	}
