@@ -8,9 +8,25 @@ body
     background-image: url("Images/header.png");
 }
 
+#up
+{
+	font-family: 'Work Sans', sans-serif;
+	position: fixed;
+	margin-left: 93%;
+	margin-top: 42%;
+	z-index: 1;
+	color: black;
+}
+
+#up:hover
+{
+	color: black;
+}
+
 #header
 {
     height: 100%;
+	
 }
 
 #gradient
@@ -44,9 +60,13 @@ body
 {
 	position: relative;
 	text-align: center;
-	bottom: 0%;
+	top: 30%;
 }
 
+.social
+{
+	padding: 6px;
+}
 
 ul
 {
