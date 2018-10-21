@@ -1,0 +1,288 @@
+@font-face 
+{
+    font-family: heading;
+    src: url("../Fonts/BaksoSapi.otf");
+}
+
+a > li
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li:hover
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style-type: none;
+    color: black;
+    font-family: 'Hind Siliguri', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.navPadding
+{
+    padding: 20px;
+}
+
+.backdropNav
+{
+    background-image: linear-gradient(to right, rgba(25,46,100, 0.8), rgba(204,214,218,0.8));
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+#aboutGameh1
+{
+    margin-top: 10px;
+    color: black;
+    font-family: heading, sans-serif;
+    letter-spacing: 1px;
+    font-size: 70px;
+}
+
+.aboutHeading
+{
+/*    padding-top: 3%;*/
+    text-align: center;
+}
+
+.devtHeading
+{
+    padding-top: 3%;
+    text-align: center;
+}
+
+.line
+{
+    border-bottom: solid 3px black;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.centerGif1
+{
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    
+}
+
+.centerGif2
+{
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+}
+
+.centerGif3
+{
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+.height
+{
+    height: 30%;
+    vertical-align: middle;
+}
+
+.vert
+{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Hind Siliguri', sans-serif;
+    vertical-align: baseline;
+    color: black;
+}
+
+.vert > h1
+{
+    font-family: heading, sans-serif;
+}
+
+
+/*JASON*/
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+  0%   { background-color: lightpink; }
+  50% { background-color: indianred; }
+  100%   { background-color: lightpink; }
+}
+
+@-webkit-keyframes LG {
+  0%   { background-image: linear-gradient(45, red, yellow);}
+  50% { background-image: linear-gradient(45, yellow, red); }
+  100%   { background-image: linear-gradient(45, red, yellow); }
+}
+
+    .slider 
+    {
+        -webkit-appearance: none;
+       
+        height:36px;
+        border-radius: 18px;
+        background: white;
+        outline: none;
+        border-style: solid;
+        border-color: black;
+        border-width: 4px;
+        box-shadow: 10px 10px;
+        background: linear-gradient(to left, #9b2e58 90%, white 10%);
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+    }
+
+    .slider::-webkit-slider-thumb 
+    {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 90px;
+        height: 90px;
+        border: 0;
+        background: url('../Images/sliderHeart.png');
+        transform: rotate(270deg); 
+        background-repeat: no-repeat;
+        background-size: 90px 90px;
+        cursor: pointer;
+    }
+
+.heartSlider
+{
+
+    padding-top: 30px;
+    left: 77%;
+    top: 50%;
+    position: fixed;
+    z-index: 1;
+    
+   transform: rotate(90deg); 
+    
+}
+
+.center
+{
+    text-align: center;
+}
+
+#Devdiv
+{
+    background-image: linear-gradient(#65BDFB, #7B9944);
+}
+
+
+.paddingImg
+{
+    padding-top: 3%;
+}
+
+.paddingFacts
+{
+    padding-bottom: 10%;
+}
+
+.affects
+{
+    top: 8%;
+    right: 10%;
+    width: 100%;
+    height: 1920px;
+    position: fixed;
+}
+
+.paddingTopdevs
+{
+    padding-top: 8%;
+}
+
+.marginTop
+{
+    margin-top: 8%;
+}
+
+.aboutHeadingPad
+{
+    margin-top: 2%;
+}
+
+.names
+{
+    color: black;
+    font-family: heading, sans-serif;
+}
+
+
+.link1:hover
+{
+    text-decoration: none;
+    color: #4E0008;
+}
+
+.link2:hover
+{
+    text-decoration: none;
+    color: #21534d;
+}
+
+.link3:hover
+{
+    text-decoration: none;
+    color: #999748;
+}
+
+.backPre
+{
+    background-repeat: no-repeat;
+    background-image: url(../Images/Footer.png)
+}
+
+.backPrediv
+{
+    padding-top: 19%;
+    padding-bottom: 25%;
+}
+
+#aboutGameh1 > h3
+{
+    color: red;
+}
+
+.absolute
+{
+    position: absolute;
+    z-index: 5;
+    color: black;
+}
+ 
+
+.absolute:hover
+{
+    text-decoration: none;
+    color: #21534d;
+}
+
+.paragraph
+{
+    color: black;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stranded</title>
+        <meta charset = "utf-8">
+        <meta type = "author" content = "">
+        <link rel = "stylesheet" href = "Styles/style.css" type="text/css" >
+        <link rel="icon" type="image/png" href="Images/icon.png">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
+        
+        
+        
+        <meta name="author" content="Jason Louw - mjasonlouw@gmail.com - Back-end javascript (navigation bar and scroll bar build and implementation), js particle effects">
+        <meta name="author" content="Kyle Oosthuizen - kyleoosthuizen1321@gmail.com - flow between pages as well as additional back-end javascript">
+        <meta name="author" content="Monica Oleastro - moleastro@gmail.com - Artistic resources: images and gifs">
+        <meta name="author" content="Olivia de Kok - olivia.de.kok@gmail.com - front-end css, template design and implementation">
+        
+    </head>
+    <body id = "top">
+        <!--Navigation bar-->
+            <div class = "backdropNav">
+                <div class = "container" style = "padding: 0px">
+                    <div class = "row">
+                        <div style = "vertical-align: middle">
+                            <div class = "col col-md-6 col-lg-6 col-sm-6" style = "padding: 0">
+                                <div class = "col col-md-12 col-lg-12 col-sm-12" style = "padding: 0">
+                                    <a href = "#top" class = "hi" id = "titleButton"><img src="Images/logo.png" height="60"/></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col col-md-6 col-lg-6 col-sm-6">
+                            <div class = "col col-md-12 col-lg-12 col-sm-12">
+                                <ul>
+                                     <a href = "#about" class = "navPadding" id = "aboutButton">
+                                         <li>
+                                             <img src = "Images/backpack.png" height="40"/>
+                                             <span class = "link1" style="padding-left: 8px">About</span>
+                                         </li>
+                                    </a>
+                                     <a href = "#devtopDiv" class = "navPadding" id = "devButton">
+                                         <li>
+                                             <img src = "Images/icon.png" height="60"/>
+                                             <span class = "link2">The Devs</span>
+                                         </li>
+                                    </a>
+                                    <a href = "#pretopDiv" class = "navPadding" id = "preorderButton">
+                                        <li>
+                                            <img src = "Images/control.png" height="30"/>
+                                            <span class = "link3" style="padding-left: 5px">Pre-Order</span>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--Navigation bar END-->
+        
+       
+        
+        
+        
+        <!--Landing-->
+            <div class = "container" style = "margin: 0px" >
+                <div class = "row">
+                    <div class = "col col-md-12" style = "padding: 0px">
+                        <img src = "Images/header.gif"/>
+                    </div>
+                </div>
+            </div>
+        <!--Landing END-->
+        
+        
+      
+        
+        
+         <!--About-->
+            <div class = "aboutPage" style = "z-index: 2">
+                <div id = "abouttopDiv" style="visibility:none" class = "paddingTopdevs">
+                </div>
+                <div class = "row">
+                    <div class = "col col-md-12 col-lg-12 col-ms-12 aboutHeading">
+                        <img src = "Images/backpack.png" height="60"/>
+                        <h1 id = "aboutGameh1">About the game</h1>
+                    </div>
+                </div>
+                
+                <div class = "row">
+                    <div class = "col col-md-3 col-sm-0 col-lg-3 height">
+                    </div>
+                     <div class = "col col-md-3 col-sm-6 col-lg-3 centerGif1 height">
+                         <img src = "Images/chopping.gif" height="300">
+                    </div>
+                     <div class = "col col-md-3 col-sm-6 col-lg-3 height vert">
+                         <h1>Collect Resources</h1>
+                         <h3>Collect things and build things and do things all in the name of progression!</h3>
+                         <p>Players can collect multiple resources in order to make progress. 
+                            The player has to chop trees in order to collect wood which is used to construct most
+                            buildings. Stone is used for refining wood into planks and for upgrading existing buildings into their
+                            more powerful versions. Planks are a more refined version of wood. The player needs wood and stone to create
+                            planks. Planks are used in much the same way as stones in that they are used for upgrading buildings or for making more advanced buildings.
+                            Coconuts are used for crafting weapons such as the catapults and upgrading buildings.</p>
+                    </div>
+                     <div class = "col col-md-3 col-sm-0 col-lg-3 height">
+                    </div>
+                </div>
+                
+                
+                <div class = "line"></div>
+                
+                <div class = "row">
+                    <div class = "col col-md-3 col-sm-0 col-lg-3 height">
+                    </div>
+                     <div class = "col col-md-3 col-sm-6 col-lg-3 height vert">
+                         <h1>Fight off enemies</h1>
+                         <h3>You know those terrible creatures that are trying to kill you? Kill them first!</h3>
+                         <p>To fight off enemies the player must strategically set up defences in their base so as to prevent
+                        enemies from destroying helpful buildings like the storage hut or the more vital building: The Hut, as
+                        without this hut the player is overrun and loses the game. The player has the chance to take base
+                        defences into their own hands during an attack as they can man the turret on top of the hut to shoot
+                        at oncoming enemies.
+                        </p>
+                    </div>
+                     <div class = "col col-md-3 col-sm-6 col-lg-3 centerGif2 height">
+                         <img src = "Images/enemy.gif" height="300"/>
+                    </div>
+                     <div class = "col col-md-3 col-sm-0 col-lg-3 height">
+                    </div>
+                </div>
+                
+                <div class = "line"></div>
+                
+                <div class = "row">
+                    <div class = "col col-md-3 col-sm-0 col-lg-3 height">
+                    </div>
+                     <div class = "col col-md-3 col-sm-6 col-lg-3 centerGif3 height">
+                         <img src = "Images/sailing.gif" height="300">
+                    </div>
+                     <div class = "col col-md-3 col-sm-6 col-lg-3 height vert">
+                         <h1>Sail to safety</h1>
+                         <h3>Forget horses and cars. You're leaving on a boat!</h3>
+                         <p>After having survived numerous attacks and having built the ship (which will take up an entire level),
+                            the player will swiftly leave the island and return to civilization.
+                         </p>
+                    </div>
+                     <div class = "col col-md-3 col-sm-0 col-lg-3 height">
+                    </div>
+                </div>
+            </div>
+         <!--About END-->
+        
+           <div class="container heartSlider"  style = " width: 35%">
+            <div class="row" >
+                 <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+            </div>
+        </div> 
+        
+        
+      
+        
+        <div id = "Devdiv" class = "marginTop">
+              <div id = "devtopDiv" style="visibility:none" class = "paddingTopdevs">
+                </div>
+          
+            <div class = "row">
+                 <div class = "col col-md-12 col-lg-12 col-ms-12 devtHeading">
+                    <img src = "Images/icon.png" height="90"/>
+                    <h1 id = "aboutGameh1">Meet the developers</h1>
+                </div>
+            </div>
+            <div class = "row center">
+                <div class = "col col-md-3 col-lg-3 col-sm-3">
+                </div>
+                  <div class = "col col-md-2 col-lg-2 col-sm-2 paddingImg">
+                    <img src = "Images/Paul.png" height = "200"/>
+                    <h1 class = "names">Paul</h1>
+                </div>
+                <div class = "col col-md-2 col-lg-2 col-sm-2 paddingImg">
+                    <img src = "Images/Kyle.png" height = "200"/>
+                    <h1 class = "names">Kyle</h1>
+                </div>
+                <div class = "col col-md-2 col-lg-2 col-sm-2 paddingImg">
+                    <img src = "Images/Monica.png" height = "200"/>
+                    <h1 class = "names">Monica</h1>
+                </div>
+                <div class = "col col-md-3 col-lg-3 col-sm-3">
+                </div>
+            </div>
+             <div class = "row center">
+                <div class = "colcol-md-3 col-lg-3 col-sm-3">
+                </div>
+                <div class = "col col-md-2 col-lg-2 col-sm-2 paddingFacts">
+                    <p>> Tells you what time to arrive to start work <br  /> and is still sleeping when you get there<br  />> Infinately adds things to the list <br  />of things the designer has to draw</p>
+                </div>
+                     <div class = "col col-md-2 col-lg-2 col-sm-2 paddingFacts">
+                    <p>> Apologises too much<br  />> Makes good coffee<br  />> "Forgets" his wallet</p>
+                </div>
+                <div class = "col col-md-2 col-lg-2 col-sm-2 paddingFacts">
+                    <p>> Leader of team banter<br  />> Walking meme<br  />> Never finishes/makes her own coffee</p>
+                </div>
+                <div class = "col ccol-md-3 col-lg-3 col-sm-3">
+                </div>
+            </div>
+            
+            <div id = "pretopDiv">
+            
+            </div>
+            
+            <div class = "row backPre " style = "z-index: 5">
+                <div class = "col col-md-12 backPrediv devtHeading">
+                    <img src = "Images/control.png" height="60"/>
+                    <h1 id = "aboutGameh1">Pre-order the game</h1>
+                    <p class= "paragraph">Are you ready to dive into the world of stranded? Download it &nbsp;<a class = "absolute" href = "https://www.youtube.com/watch?v=EXox71EOrP4&t=7s" > now!</a></p>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+         <div id = "particles-js" class = "affects" style = "z-index: 1">
+            
+        </div>
+            
+        
+        
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="particles.js-master/particles.js"></script>       
+        <script src = "Scripts/scroll.js"></script>
+    </body>
+</html>
