@@ -251,7 +251,8 @@ li
 .backPre
 {
     background-repeat: no-repeat;
-    background-image: url(../Images/Footer.png)
+    background-image: url(../Images/Footer.png);
+	background-position: center;
 }
 
 .backPrediv
@@ -270,6 +271,7 @@ li
     position: absolute;
     z-index: 5;
     color: black;
+	text-decoration: underline;
 }
  
 
